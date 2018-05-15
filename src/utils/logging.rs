@@ -17,3 +17,14 @@ pub fn configure_logger(config: &types::Settings) {
 
     logger.init().unwrap();
 }
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn test_configure_logger() {
+        //test that we don't panic creating a default logger
+        configure_logger(&Default::default());
+    }
+}
