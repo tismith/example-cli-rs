@@ -1,9 +1,11 @@
 use stderrlog;
+use failure;
 use utils::types;
+use failure::ResultExt;
 
 ///This sets up logging, and takes the output from the commandline
 ///options
-pub fn configure_logger(config: &types::Settings) {
+pub fn configure_logger(config: &types::Settings) -> Result<(), failure::Error> {
     let mut logger = stderrlog::new();
 
     logger
@@ -15,7 +17,7 @@ pub fn configure_logger(config: &types::Settings) {
         logger.module(module_path.clone());
     }
 
-    logger.init().unwrap();
+    Ok(logger.init().context("failed to initialize logger")?)
 }
 
 #[cfg(test)]
@@ -25,6 +27,6 @@ mod test {
     #[test]
     fn test_configure_logger() {
         //test that we don't panic creating a default logger
-        configure_logger(&Default::default());
+        assert!(configure_logger(&Default::default()).is_ok());
     }
 }
