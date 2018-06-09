@@ -1,7 +1,7 @@
-use stderrlog;
 use failure;
-use utils::types;
 use failure::ResultExt;
+use stderrlog;
+use utils::types;
 
 ///This sets up logging, and takes the output from the commandline
 ///options
