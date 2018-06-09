@@ -48,6 +48,7 @@ matrix:
             - cmake
 
 script: |
+  export RUST_BACKTRACE=1 &&
   cargo build --verbose &&
   cargo test  --verbose &&
   cargo doc   --verbose

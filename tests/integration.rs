@@ -10,7 +10,7 @@ fn get_cwd() -> String {
 #[test]
 fn test_help() {
     //test that help works contains a USAGE string
-    let bin: &str = &format!("{}/target/debug/example-cli-rs", get_cwd());
+    let bin: &str = &format!("{}/target/debug/example-cli", get_cwd());
     assert_cli::Assert::command(&[bin])
         .with_args(&["-h"])
         .stdout()
