@@ -16,8 +16,8 @@ pub fn configure_logger(config: &types::Settings) -> Result<(), failure::Error> 
     if let Some(ref module_path) = config.module_path {
         logger.module(module_path.clone());
     }
-
-    Ok(logger.init().context("failed to initialize logger")?)
+    logger.init().context("failed to initialize logger")?;
+    Ok(())
 }
 
 #[cfg(test)]
