@@ -118,7 +118,7 @@ version = "0.1.0"
 dependencies = [
  "assert_cli 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "clap 2.31.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "exitfailure 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "exitfailure 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "stderrlog 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -126,7 +126,7 @@ dependencies = [
 
 [[package]]
 name = "exitfailure"
-version = "0.4.0"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -397,7 +397,7 @@ dependencies = [
 "checksum difference 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "524cbf6897b527295dff137cec09ecf3a05f4fddffd7dfcd1585403449e74198"
 "checksum dtoa 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "09c3753c3db574d215cba4ea76018483895d7bff25a31b49ba45db21c48e50ab"
 "checksum environment 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "1f4b14e20978669064c33b4c1e0fb4083412e40fe56cbea2eae80fd7591503ee"
-"checksum exitfailure 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "9fa6a7fe9e8a04de338b16cf35535149fcf8726bdbe6bcbec095e3d72278c98e"
+"checksum exitfailure 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "84e8ff222c77b917cba2cb067e335c5b0b91a457d9c8ebfac04f2f3fddd4c647"
 "checksum failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "934799b6c1de475a012a02dab0ace1ace43789ee4b99bcfbf1a2e3e8ced5de82"
 "checksum failure_derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c7cdda555bb90c9bb67a3b670a0f42de8e73f5981524123ad8578aafec8ddb8b"
 "checksum itoa 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c069bbec61e1ca5a596166e55dfe4773ff745c3d16b700013bcaff9a6df2c682"
