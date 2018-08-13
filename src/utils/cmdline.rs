@@ -18,14 +18,12 @@ fn matcher<'a, 'b>() -> clap::App<'a, 'b> {
                 .short("v")
                 .multiple(true)
                 .help("Increase message verbosity, maximum 4"),
-        )
-        .arg(
+        ).arg(
             clap::Arg::with_name("quiet")
                 .short("q")
                 .long("quiet")
                 .help("Silence all output"),
-        )
-        .arg(
+        ).arg(
             clap::Arg::with_name("timestamp")
                 .short("t")
                 .long("timestamp")
