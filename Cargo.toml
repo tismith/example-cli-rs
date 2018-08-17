@@ -6,7 +6,7 @@ license = "MIT"
 
 [dependencies]
 failure = "0.1.1"
-log = "0.4.3"
+log = "0.4.4"
 stderrlog = "0.4.1"
 clap = "2.32.0"
 exitfailure = "0.5.1"
