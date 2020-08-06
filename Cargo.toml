@@ -8,7 +8,7 @@ license = "MIT"
 failure = "0.1.8"
 log = "0.4.8"
 stderrlog = "0.4.3"
-clap = "2.33.1"
+clap = "2.33.2"
 exitfailure = "0.5.1"
 
 [dev-dependencies]
