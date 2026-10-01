@@ -1,7 +1,6 @@
 # Basic base application for rust cli programs.
 
-[![Build Status](https://travis-ci.org/tismith/example-cli-rs.svg?branch=master)](https://travis-ci.org/tismith/example-cli-rs)
-[![codecov](https://codecov.io/gh/tismith/example-cli-rs/branch/master/graph/badge.svg)](https://codecov.io/gh/tismith/example-cli-rs)
+[![Rust CI](https://github.com/tismith/example-cli-rs/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/tismith/example-cli-rs/actions/workflows/ci.yml)
 
 ## We are using:
 * `log` and `stderrlog` for configurable logging macros
